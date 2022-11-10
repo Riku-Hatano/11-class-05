@@ -466,5 +466,10 @@ a {
       height: 4vh;
    }
    /* FOOTER END  */
+}
 
+@media (min-width: 1000px) {
+   header {
+      height: 60vh;
+   }
 }
