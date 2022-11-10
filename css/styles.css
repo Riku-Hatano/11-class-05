@@ -482,4 +482,42 @@ a {
       padding-top: 0;
       width: 40%;
    }
+
+   /* FEATURES START  */
+   .features {
+      row-gap: 0vh;
+   }
+   .features blockquote {
+      padding-top: 2%;
+      padding-bottom: 2%;
+   }
+
+   .featureas article {
+      width: 70%;
+   }
+
+   .features a {
+      padding: 2%;
+      height: 30vh;
+      justify-content: space-evenly;
+   }
+
+   .features a:hover {
+      background-color: var(--darkerBlack);
+      transition: .3s;
+   }
+
+   .features a:hover > i {
+      color: white;
+   }
+
+   .features a:hover > h3 {
+      color: var(--defaultColor);
+   }
+
+   .features i {
+      font-size: 60px;
+   }
+
+   /* FEATEURES END  */
 }
