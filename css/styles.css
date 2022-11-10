@@ -391,4 +391,40 @@ a {
    }
    /* ABOUT END  */
 
+   /* FOOTER START  */
+   footer > article {
+      padding-bottom: 2vh;
+   }
+
+   footer > section {
+      padding: 2%;
+      flex-direction: row;
+      justify-content: space-between;
+   }
+   form {
+      justify-content: right;
+   }
+
+   footer aside {
+      row-gap: 1vh;
+   }
+
+   footer h3 {
+      font-size: 20px;
+   }
+
+   footer > article > article,
+   footer > article > section {
+      row-gap: 2vh;
+   }
+
+   footer > article > section {
+      column-gap: 0.5vh;
+   }
+   footer a {
+      width: 4vh;
+      height: 4vh;
+   }
+   /* FOOTER END  */
+
 }
