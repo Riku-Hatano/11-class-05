@@ -469,6 +469,10 @@ a {
 }
 
 @media (min-width: 1000px) {
+   main {
+      row-gap: 1vh;
+   }
+
    header {
       height: 60vh;
    }
@@ -518,6 +522,21 @@ a {
    .features i {
       font-size: 60px;
    }
-
    /* FEATEURES END  */
+
+   /* ABOUT START  */
+   .about {
+      padding-top: 2vh;
+      align-items: center;
+   }
+   .about > article,
+   .about > blockquote,
+   .about > section {
+      width: 80%;
+   }
+
+   .about > blockquote {
+      box-sizing: border-box;
+   }
+   /* ABOUT END  */
 }
