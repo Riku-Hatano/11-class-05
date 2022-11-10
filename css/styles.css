@@ -322,6 +322,36 @@ a {
    }
    /* HEADER END */
 
+   /* FEATURE START  */
+   .features {
+      padding-top: 1vh;
+      align-items: center;
+   }
+
+   .features > blockquote {
+      padding-left: 10%;
+      padding-right: 10%;
+      width: 80%;
+   }
+
+   .features > article {
+      flex-direction: row;
+      width: 96%;
+      justify-content: space-between;
+      padding: 0;
+   }
+
+   .features a {
+      width: 24%;
+      text-align: center;
+   }
+
+   .features h3 {
+      width: 70%;
+   }
+
+   /* FEATURE END  */
+
    /* ABOUT START  */
    .about {
       padding-left: 1%;
@@ -360,4 +390,5 @@ a {
       padding-left: 1%;
    }
    /* ABOUT END  */
+
 }
