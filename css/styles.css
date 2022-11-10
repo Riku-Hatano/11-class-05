@@ -539,4 +539,27 @@ a {
       box-sizing: border-box;
    }
    /* ABOUT END  */
+
+   /* FOOTER START  */
+   footer {
+      align-items: center;
+   }
+
+   footer > article {
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 2%;
+      width: 76%;
+   }
+
+   footer > section {
+      width: 76%;
+      padding-left: 12;
+      padding-right: 12;
+      justify-content: space-between;
+   }
+
+
+
+   /* FOOTER END  */
 }
